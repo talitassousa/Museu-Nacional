@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional da República</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--[if lt IE 9]> 
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"> </script> 
+<![endif]-->
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div>
+                <h1>Museu <span id="titulo-nacional">Nacional</span></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">EXPOSIÇÔES</a></li>
+                    <li><a href="#">PESQUISA</a></li>
+                    <li><a href="#">ACERVO</a></li>
+                    <li><a href="#">VIDEOS</a></li>
+                    <li><a href="#">FOTOS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="principal">
+            <div id="conteudo">
+                <section>
+                    <img src="img/museu.png" alt="">
+                </section>
+
+
+                <section id="postagens">
+
+                    <article id="video">
+                        <h4 class="cor-aside">VIDEO: CONHEÇA O MUSEU</h4>
+
+                        <!--PARA ADICIONAR VIDEO DO YOUTUBE-->
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/LI19ftDmlFM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h4 class="cor-aside">MAPA: ENCONTRE O MUSEU</h4>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.126050134482!2d-47.880323685319645!3d-15.79730618904939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a309b1e384357%3A0xa8f81b7dc5456548!2sMuseu%20Nacional%20da%20Rep%C3%BAblica!5e0!3m2!1spt-BR!2sbr!4v1625099053790!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </article>
+
+                    <article id="exposiçoes">
+                        <h4 class="cor-aside">EXPOSIÇÔES</h4>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos;</a></li>
+                            <li><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil;</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre;</a></li>
+                            <li><a href="#">Plantas do Brasil Central;</a></li>
+                            <li><a href="#">Teresa Cristina: A Imperatriz Arqueólogica;</a></li>
+                            <li><a href="#">Arte com dinossauros - Paleoarte.</a></li>
+                            <li><a href="#"><strong>Veja todos..</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h4 class="cor-aside">OBRA DE OSCAR NIEMEYER</h4>
+                        <p>O Museu Nacional do Conjunto Cultural da República, obra de Oscar Niemeyer, localizado na
+                            Esplanada dos Ministérios, foi construído exclusivamente com recursos do GDF. O Conjunto
+                            Cultural da República constituído de vários equipamentos culturais inclui, principalmente, a
+                            Biblioteca e o Museu Nacional, idealizados por Lucio Costa e previstos desde o final da
+                            década de 1950.</p>
+
+                            <a href="#">Leia mais..</a>
+
+                    </article>
+
+                </section>
+            </div> <!--FIM DIV CONTEUDO-->
+
+            <aside>
+                <!--ASIDE É O CONTEUDO DO LADO-->
+                <section>
+                    <img src="img/museu2.png" alt=""> 
+                </section>
+
+                <section id="visita">
+                    <form action="">
+                        <fieldset>
+                            <legend class="cor-aside">AGENDE SUA VISITA</legend>
+                            <label for="data">Data:</label>
+                            <input type="date" name="data" id="data"> <br>
+
+                            <label for="quantidade">Quantidade pessoas:</label>
+                            <input type="number" name="quantidade" id="quantidade" value="1">
+
+                            <input type="submit" value="verificar disponibilidade" id="btn-form">
+
+                        </fieldset>
+                    </form>
+                </section>
+                <!--FIM SEÇÃO VISITA-->
+
+                <section id="fotos">
+                    <h4 class="cor-aside">GALERIA DE FOTOS</h4>
+                    <a href="#"><img src="img/imagem1.jpg" height="95" width="95"></a>
+                    <a href="#"><img src="img/imagem2.jpg" height="95" width="95"></a>
+                    <a href="#"><img src="img/imagem3.jpg" height="95" width="95"></a>
+                    <a href="#"><img src="img/imagem4.jpg" height="95" width="95"></a>
+
+                </section><!--FIM SEÇÃO GALERIA DE FOTOS-->
+
+            </aside>
+
+            <footer>
+                <p>
+                    <a href="#">Home</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contatos</a>
+                </p>
+
+                <p>
+                    <a href="#">Museu Nacional</a> <br> <br>
+                    <strong> Site criado por Talita Sousa</strong>
+                </p>
+            </footer>
+
+        </div> <!--FIM DIV PRINCIPAL-->
+
+    </div><!--FIM DA DIV CONTAINER-->
+
+
+</body>
+
+</html>
